@@ -1,4 +1,6 @@
 # 🍄 Mushroom Mate - E-Commerce & Farm Management System
+<img width="1429" height="941" alt="Screenshot 2026-06-26 130618" src="https://github.com/user-attachments/assets/b0debb60-b086-4eab-93d1-6aaeefdde378" />
+<img width="1495" height="948" alt="Screenshot 2026-06-26 130657" src="https://github.com/user-attachments/assets/7209b3af-0ec2-434d-8949-8f8cd24c4b98" />
 
 An integrated web-based platform designed to bridge the gap between small-scale mushroom farmers and consumers in Sri Lanka.
 
@@ -28,22 +30,23 @@ An integrated web-based platform designed to bridge the gap between small-scale 
 ### 2. Backend Setup
 1. Open a terminal and navigate to the `backend` folder.
 2. Install dependencies:
-   ``bash
+   
    npm install
    
 1. Create a .env file in the backend folder and add your database credentials and JWT Secret.
 2. Start the backend server:
-   ``bash
+   
    npm start
 
 ### 3. Frontend Setup
 1. Open a new terminal and navigate to the frontend folder.
 2. Install dependencies:
-``bash
+   
 npm install
 
 3. Start the React development server:
- ``bash
+ <img width="1429" height="941" alt="Screenshot 2026-06-26 130618" src="https://github.com/user-attachments/assets/e7c0214d-a77f-45b8-bc68-0715d98b0278" />
+
 npm run dev
 
 👨‍💻 Developer
