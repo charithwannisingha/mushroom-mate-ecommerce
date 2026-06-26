@@ -39,11 +39,11 @@ An integrated web-based platform designed to bridge the gap between small-scale 
 ### 3. Frontend Setup
 1. Open a new terminal and navigate to the frontend folder.
 2. Install dependencies:
-``bash
+```bash
 npm install
 
 3. Start the React development server:
-``bash
+ ```bash
 npm run dev
 
 👨‍💻 Developer
