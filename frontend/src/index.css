@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================================
+   Mushroom Mate - ගෝලීය මෝස්තර (global styles)
+   ============================================================ */
+
+:root {
+  color-scheme: light;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  @apply bg-cream text-soil font-sans antialiased;
+  margin: 0;
+}
+
+/* සිරැසි සඳහා display font (headings) */
+h1, h2, h3, h4 { @apply font-display; }
+
+/* පුනරාවර්තන සංරචක classes (reusable component classes) */
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl font-semibold
+           transition-all duration-200 focus:outline-none focus-visible:ring-2
+           focus-visible:ring-spore focus-visible:ring-offset-2 disabled:opacity-50
+           disabled:cursor-not-allowed;
+  }
+  .btn-primary { @apply btn bg-pine text-cream px-5 py-2.5 hover:bg-pine-800 shadow-soft; }
+  .btn-spore   { @apply btn bg-spore text-pine-700 px-5 py-2.5 hover:bg-spore-600; }
+  .btn-outline { @apply btn border border-pine-700/30 text-pine-700 px-5 py-2.5 hover:bg-pine-50; }
+  .btn-ghost   { @apply btn text-pine-700 px-3 py-2 hover:bg-pine-50; }
+  .btn-danger  { @apply btn bg-clay text-cream px-4 py-2 hover:bg-clay-600; }
+
+  .card { @apply bg-white rounded-2xl shadow-card border border-pine-100/60; }
+
+  .input {
+    @apply w-full rounded-xl border border-pine-700/15 bg-white px-4 py-2.5 text-soil
+           placeholder:text-soil/40 focus:outline-none focus:ring-2 focus:ring-spore
+           focus:border-transparent transition;
+  }
+  .label { @apply block text-sm font-semibold text-pine-700 mb-1.5; }
+
+  .badge { @apply inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-xs font-semibold; }
+
+  .container-x { @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8; }
+}
+
+/* පෙළගැස්ම ස්ථාවරව තබයි (layout lock - prevent layout shift) */
+.no-shift { contain: layout; }
+
+/* රූප loading වන විට placeholder background */
+img { background-color: #f0ebdd; }
+
+/* scrollbar minimal */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-thumb { @apply bg-pine-700/20 rounded-full; }
+::-webkit-scrollbar-thumb:hover { @apply bg-pine-700/40; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}

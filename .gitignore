@@ -1,0 +1,19 @@
+# පරායත්ත (dependencies)
+node_modules/
+*/node_modules/
+
+# පරිසර විචල්‍ය (environment)
+.env
+*/.env
+
+# ගොඩනැගීම් ප්‍රතිදානය (build output)
+dist/
+build/
+
+# ලොග් (logs)
+*.log
+npm-debug.log*
+
+# සංස්කාරක (editor)
+.vscode/
+.DS_Store
