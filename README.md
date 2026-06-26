@@ -28,22 +28,22 @@ An integrated web-based platform designed to bridge the gap between small-scale 
 ### 2. Backend Setup
 1. Open a terminal and navigate to the `backend` folder.
 2. Install dependencies:
-   ```bash
+   ``bash
    npm install
    
 1. Create a .env file in the backend folder and add your database credentials and JWT Secret.
 2. Start the backend server:
-   ```bash
+   ``bash
    npm start
 
 ### 3. Frontend Setup
 1. Open a new terminal and navigate to the frontend folder.
 2. Install dependencies:
-```bash
+``bash
 npm install
 
 3. Start the React development server:
- ```bash
+ ``bash
 npm run dev
 
 👨‍💻 Developer
