@@ -45,7 +45,6 @@ An integrated web-based platform designed to bridge the gap between small-scale 
 npm install
 
 3. Start the React development server:
- <img width="1429" height="941" alt="Screenshot 2026-06-26 130618" src="https://github.com/user-attachments/assets/e7c0214d-a77f-45b8-bc68-0715d98b0278" />
 
 npm run dev
 
